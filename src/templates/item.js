@@ -119,7 +119,7 @@ class Item extends React.Component {
           data-item-description={item.frontmatter.description}
           data-item-image={item.frontmatter.image.childImageSharp.fluid.src}
           data-item-url={
-            "https://gatsby-snipcart-starter.netlify.com" + item.fields.slug
+            "https://dreamy-morse-e8c5f6.netlify.com + item.fields.slug
           } //REPLACE WITH OWN URL
           data-item-custom1-name={
             item.frontmatter.customField
