@@ -15,7 +15,7 @@ const ShopName = styled.h1`
   padding: 20px;
   width: 50%;
   text-align: center;
-  font-family: Estilo, sans-serif;
+  font-family: Estilo;
   border: 0px solid ${props => props.theme.colors.secondaryAccent};
   font-size: 2.5em;
   font-weight: 900;

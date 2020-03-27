@@ -21,10 +21,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
-        path: `${__dirname}/src/styles/fonts`,
-        name: `fonts`,
+        custom: {
+          families: ["Estilo"],
+          urls: ["/src/fonts/fonts.css"],
+        },
       },
     },
     {
