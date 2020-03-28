@@ -7,6 +7,7 @@ import styled from "styled-components"
 import ItemThumbnail from "../components/ItemThumbnail/ItemThumbnail"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import GlobalFonts from "../fonts/fonts"
 
 const ThumbnailsWrapper = styled.div`
   width: 100%;
@@ -39,6 +40,7 @@ class BlogIndex extends React.Component {
               />
             )
           })}
+          <GlobalFonts />
         </ThumbnailsWrapper>
       </Layout>
     )
