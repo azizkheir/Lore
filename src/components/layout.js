@@ -5,7 +5,6 @@ import { GlobalStyle } from "../styles/globalStyle"
 
 import HeaderMain from "./Headers/HeaderMain"
 import HeaderMinor from "./Headers/HeaderMinor"
-import GlobalFonts from "../fonts/fonts"
 
 const PageWrapper = styled.div`
   width: 100%;
@@ -57,7 +56,6 @@ class Layout extends React.Component {
             <FooterStyled>
               <strong>Local delivery coming soon</strong>
             </FooterStyled>
-            <GlobalFonts />
           </PageWrapper>
         </>
       </ThemeProvider>
