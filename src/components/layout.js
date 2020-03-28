@@ -5,6 +5,7 @@ import { GlobalStyle } from "../styles/globalStyle"
 
 import HeaderMain from "./Headers/HeaderMain"
 import HeaderMinor from "./Headers/HeaderMinor"
+import GlobalFonts from "../fonts/fonts"
 
 const PageWrapper = styled.div`
   width: 100%;
@@ -25,9 +26,6 @@ const FooterStyled = styled.footer`
   @media (max-width: 600px) {
     text-align: center;
   }
-`
-const ExternalLink = styled.a`
-  color: #c59fc5;
 `
 
 class Layout extends React.Component {
@@ -59,6 +57,7 @@ class Layout extends React.Component {
             <FooterStyled>
               <strong>Local delivery coming soon</strong>
             </FooterStyled>
+            <GlobalFonts />
           </PageWrapper>
         </>
       </ThemeProvider>
