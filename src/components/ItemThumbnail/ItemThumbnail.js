@@ -12,7 +12,7 @@ const ItemThumbnailStyled = styled.div`
   justify-content: center;
   margin: 20px;
   background: white;
-  border: 1px solid black;
+  border: 0px solid black;
 
   @media (max-width: 930px) {
     width: 250px;
