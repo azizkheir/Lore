@@ -63,7 +63,7 @@ export const GlobalStyle = createGlobalStyle`
       color: inherit;
     }
     p, h1, h2, h3, h4 {
-      line-height: 1.5em;
+      line-height: 1.3em;
     }
     button {
       display: inline-block;

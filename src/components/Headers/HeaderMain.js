@@ -13,13 +13,13 @@ const HeaderMainStyled = styled.div`
 
 const ShopName = styled.h1`
   background: white;
-  padding: 20px;
+  padding: 10px;
   width: 50%;
   text-align: center;
   font-family: Estilo;
   border: 0px solid ${props => props.theme.colors.secondaryAccent};
-  font-size: 2.5em;
-  font-weight: 900;
+  font-size: 3.5em;
+  font-weight: 300;
   @media (max-width: 600px) {
     width: 100%;
   }
@@ -38,6 +38,7 @@ const headerMain = props => {
         <GlobalFonts />
         <LinkStyled to="/">{props.shopName}</LinkStyled>
       </ShopName>
+      <soft>preview menu</soft>
     </HeaderMainStyled>
   )
 }
