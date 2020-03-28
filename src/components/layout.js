@@ -54,7 +54,7 @@ class Layout extends React.Component {
             {header}
             <MainSection>{children}</MainSection>
             <FooterStyled>
-              <strong>Local delivery coming soon</strong>
+              <soft>Local delivery coming soon</soft>
             </FooterStyled>
           </PageWrapper>
         </>

@@ -8,9 +8,9 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 
 const Heading = styled.h1`
-  font-weight: 700;
-  font-size: 1.5em;
-  margin: 20px 0;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin: 0px 0;
 `
 
 const ImgStyled = styled(Img)`
@@ -21,7 +21,7 @@ const ImgStyled = styled(Img)`
 const Price = styled.p`
   margin: 20px 0;
   padding: 10px;
-  font-weight: 700;
+  font-weight: 300;
   background: white;
 `
 const Description = styled.p`
@@ -34,22 +34,23 @@ const Dropdown = styled.select`
   padding: 10px;
   margin: 10px 0;
   background: white;
-  font-weight: 700;
+  font-weight: 300;
   border: none;
   outline: none;
 `
 const DropdownOption = styled.option`
   padding: 10px;
   background: white;
-  font-weight: 700;
+  font-weight: 300;
   border: none;
   outline: none;
 `
 
 const BuyButton = styled.button`
-  padding: 20px;
-  background: ${props => props.theme.colors.secondaryAccent};
-  font-weight: 700;
+  padding: 5px;
+  background: black;
+  font-weight: 300;
+  color: white;
 `
 
 class Item extends React.Component {
@@ -131,7 +132,7 @@ class Item extends React.Component {
           )}
           data-item-custom1-value={this.state.selected}
         >
-          Add to basket
+          Add essential
         </BuyButton>
       </Layout>
     )

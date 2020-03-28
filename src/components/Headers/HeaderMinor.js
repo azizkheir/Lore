@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import GlobalFonts from "../../fonts/fonts"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
@@ -11,14 +12,14 @@ const HeaderMinorStyled = styled.div`
   align-items: center;
   background: white;
   margin: 20px 0;
-  border: 1px solid black;
+  border: 0px solid black;
 `
 
 const ShopName = styled.h1`
-  padding: 20px;
-  font-family: Heebo, sans-serif;
-  font-size: 2em;
-  font-weight: 700;
+  padding: 5px;
+  font-family: Estilo;
+  font-size: 3em;
+  font-weight: 300;
 `
 
 const LinkStyled = styled(Link)`
@@ -33,7 +34,7 @@ const CartSummary = styled.div`
   flex-direction: column;
   align-items: flex-end;
   padding: 10px;
-  font-weight: bold;
+  font-weight: thin;
 `
 
 class HeaderMinor extends Component {
@@ -74,6 +75,7 @@ class HeaderMinor extends Component {
     return (
       <HeaderMinorStyled>
         <ShopName>
+          <GlobalFonts />
           <LinkStyled to="/">{this.props.shopName}</LinkStyled>
         </ShopName>
         <CartSummary className="snipcart-summary">

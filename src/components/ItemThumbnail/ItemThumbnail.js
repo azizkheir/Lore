@@ -1,4 +1,5 @@
 import React from "react"
+import GlobalFonts from "../../fonts/fonts"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
@@ -23,9 +24,9 @@ const ItemThumbnailStyled = styled.div`
 `
 
 const Heading = styled.h3`
-  font-size: 1.3em;
-  padding: 10px;
-  font-weight: 900;
+  font-size: 1.5em;
+  padding: 30px;
+  font-weight: 300;
   text-align: center;
   width: 100%;
   min-height: 85px;
@@ -41,7 +42,8 @@ const LinkStyled = styled(Link)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 10px;
+  font-family: Montserrat, sans-serif;
 `
 
 const ImgStyled = styled(Img)`
@@ -55,6 +57,7 @@ const ImgStyled = styled(Img)`
 
 const Price = styled.p`
   padding-bottom: 0px;
+  font-weight: 200;
 `
 
 const itemThumbnail = props => {
@@ -63,6 +66,7 @@ const itemThumbnail = props => {
       <LinkStyled to={props.link}>
         <ImgStyled fluid={props.image} />
         <Heading>{props.heading}</Heading>
+        <GlobalFonts />
       </LinkStyled>
       <Price>${props.price.toFixed(2)}</Price>
     </ItemThumbnailStyled>
