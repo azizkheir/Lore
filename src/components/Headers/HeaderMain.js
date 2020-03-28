@@ -1,4 +1,5 @@
 import React from "react"
+import GlobalFonts from "../../fonts/fonts"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
@@ -34,6 +35,7 @@ const headerMain = props => {
   return (
     <HeaderMainStyled>
       <ShopName>
+        <GlobalFonts />
         <LinkStyled to="/">{props.shopName}</LinkStyled>
       </ShopName>
     </HeaderMainStyled>
