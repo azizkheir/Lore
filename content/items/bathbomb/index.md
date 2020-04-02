@@ -1,5 +1,5 @@
 ---
-title: Full Spectrum Bath Bomb
+title: Full Spectrum Bath Bomb by Whispr
 date: 2019-12-19
 id: 1
 price: 32.00
