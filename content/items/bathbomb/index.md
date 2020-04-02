@@ -1,7 +1,7 @@
 ---
 title: Full Spectrum Bath Bomb
 date: 2019-12-19
-id: 5
+id: 1
 price: 32.00
 image: ./image1.jpg
 description: Using hemp CBD grown in Colorado, Whispr only uses full-spectrum extracts of the highest quality with therapeutic essential oil blends.
