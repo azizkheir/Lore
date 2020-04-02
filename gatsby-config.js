@@ -62,7 +62,7 @@ module.exports = {
       options: {
         //replace with own Snipcart API key
         apiKey:
-          "MGY2NjEyNzItNDFmMy00NjUxLThkY2MtYjc4OGFlMTYyMGI0NjM3MjA2MTEyMjcwMjYxNjk5",
+          "OGEwYmE2ZDYtY2E0Zi00NmIwLWI1YjEtYzJiM2IxNWUzNzdlNjM3MjA2MTEyMjcwMjYxNjk5",
         autopop: true,
       },
     },
