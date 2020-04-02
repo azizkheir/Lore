@@ -1,5 +1,5 @@
 ---
-title: Hemp Oil
+title: Full Spectrum Tincture
 date: 2019-06-19
 id: 3
 price: 2.50
