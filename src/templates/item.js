@@ -91,9 +91,7 @@ class Item extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <Heading>{item.frontmatter.title}</Heading>
-
         <ImgStyled fluid={item.frontmatter.image.childImageSharp.fluid} />
-
         <Price>
           $
           {this.updatePrice(
@@ -111,7 +109,6 @@ class Item extends React.Component {
             <DropdownOption key={option.name}>{option.name}</DropdownOption>
           ))}
         </Dropdown>
-
         <BuyButton
           className="snipcart-add-item"
           data-item-id={item.frontmatter.id}

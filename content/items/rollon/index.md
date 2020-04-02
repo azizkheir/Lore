@@ -6,13 +6,8 @@ price: 29.00
 image: ./image1.jpg
 description: Therapeutic blend of essential oils and active botanicals for sore, tight muscles and healthy, glowing skin.
 customField:
-  name:
-  values:
-    [
-      { name: "One Cake", priceChange: 0 },
-      { name: "Pack of 6", priceChange: 12.00 },
-      { name: "Pack of 12", priceChange: 25.00 },
-    ]
+  name: Size
+  values: [{ name: "15 ML", priceChange: 0 }]
 ---
 
 Provides pain relief from scrapes, bruises and burns

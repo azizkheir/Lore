@@ -1,18 +1,13 @@
 ---
 title: Wellness Set
 date: 2019-06-19
-id: 1
-price: 2.50
+id: 2
+price: 69.00
 image: ./image1.jpg
-description: A full spectrum roll-on elixir is infused with a therapeutic blend of essential oils and active botanicals.
+description: Whisprs' full spectrum roll-on elixir and tincture is made with full spectrum CBD, nootropic and essential oils
 customField:
-  name: Pack Size
-  values:
-    [
-      { name: "One Cake", priceChange: 0 },
-      { name: "Pack of 6", priceChange: 9.50 },
-      { name: "Pack of 12", priceChange: 20.00 },
-    ]
+  name: Kit
+  values: [{ name: "2-Kit", priceChange: 0 }]
 ---
 
-This is a very scary cake.
+Wellness kit includes full spectrum CBD Roll-On elixer and Tincture
